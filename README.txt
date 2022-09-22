@@ -1,28 +1,34 @@
 -----------------------------------------------------------------------------
 
-     Restoration of JPEG Compressed Image 
-     with Narrow Quantization Constraint Set without Parameter Optimization         
+     Compressing Sign Information in 
+     DCT-based Image Coding via Deep Sign Retrieval         
  
 -----------------------------------------------------------------------------
 
-Written by  : Chihiro Tsutake
+Written by  : Kei Suzuki
 Affiliation : Nagoya University
-E-mail      : ctsutake@nagoya-u.jp
-Created     : Feb. 2020
+E-mail      : tsutake.chihiro.c3@f.mail.nagoya-u.ac.jp
+Created     : Feb. 2022
 
 -----------------------------------------------------------------------------
     Contents
 -----------------------------------------------------------------------------
 
-PK99/       : Main algorithm files for the proposed technique 1
-ZLXLMG16/   : Main algorithm files for the proposed technique 2
-Utilities/  : JPEG algorithm files
-Img/        : Original PGM images
+model/RDSR/pty : RDSR model (trained)
+main.py        : Main algorithm file
+torchjpeg.py   : TorchJPEG[1]
+
+[1] M. Ehrlich et al., "Quantization Guided JPEG Artifact Correction,"
+in Proc. European Conference on Computer Vision (ECCV), 2020.
 
 -----------------------------------------------------------------------------
     Usage
 -----------------------------------------------------------------------------
 
+-- Training
+1) 
+
+-- Test
 1) Change the current directory to `PK99' or `ZLXLMG16'.
 2) Choose the variable `qf' in `main.m' from the range 1 to 100.
 2) Running `main' generates the following images.
