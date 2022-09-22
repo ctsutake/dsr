@@ -8,13 +8,13 @@
 Written by  : Kei Suzuki
 Affiliation : Nagoya University
 E-mail      : tsutake.chihiro.c3@f.mail.nagoya-u.ac.jp
-Created     : Feb. 2022
+Created     : Sep. 2022
 
 -----------------------------------------------------------------------------
     Contents
 -----------------------------------------------------------------------------
 
-model/RDSR/pty : RDSR model (trained)
+model/RDSR.pty : RDSR model (trained)
 main.py        : Main algorithm file
 torchjpeg.py   : TorchJPEG[1]
 
@@ -27,7 +27,7 @@ in Proc. European Conference on Computer Vision (ECCV), 2020.
 
 -- Training
 
-1) Download the following zip.
+1) Download and extract the following zip.
 
 train.zip
 https://drive.google.com/file/d/1NO-cLuQ99gpNLj1ENEz4NyKyOH_zClzV/view?usp=sharing
@@ -40,7 +40,7 @@ https://drive.google.com/file/d/1NO-cLuQ99gpNLj1ENEz4NyKyOH_zClzV/view?usp=shari
 
 -- Test
 
-1) Download the following zip.
+1) Download and extract the following zip.
 
 test.zip
 https://drive.google.com/file/d/1b7K3VCsbaPSZeLeg0P6ZLOhyeBYbHoGh/view?usp=sharing
