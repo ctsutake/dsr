@@ -25,16 +25,7 @@ in Proc. European Conference on Computer Vision (ECCV), 2020.
     Usage
 -----------------------------------------------------------------------------
 
--- Training
-1) 
 
--- Test
-1) Change the current directory to `PK99' or `ZLXLMG16'.
-2) Choose the variable `qf' in `main.m' from the range 1 to 100.
-2) Running `main' generates the following images.
-
-    -- jpg.png (decoded image)
-    -- res.png (restored image)
 
 -----------------------------------------------------------------------------
     Feedback
