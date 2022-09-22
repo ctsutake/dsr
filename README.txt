@@ -25,7 +25,31 @@ in Proc. European Conference on Computer Vision (ECCV), 2020.
     Usage
 -----------------------------------------------------------------------------
 
+-- Training
 
+1) Download the following zip.
+
+train.zip
+https://drive.google.com/file/d/1NO-cLuQ99gpNLj1ENEz4NyKyOH_zClzV/view?usp=sharing
+
+2) Set train_flg = 1 (line 213).
+
+3) Change train QF (line 209), learning rate (line 216), epochs (line 219), and K (line 225).
+
+4) Run 'python3 main.py'.
+
+-- Test
+
+1) Download the following zip.
+
+test.zip
+https://drive.google.com/file/d/1b7K3VCsbaPSZeLeg0P6ZLOhyeBYbHoGh/view?usp=sharing
+
+2) Set train_flg = 0 (line 213).
+
+3) Change test QF (line 210).
+
+4) Run 'python3 main.py'.
 
 -----------------------------------------------------------------------------
     Feedback
